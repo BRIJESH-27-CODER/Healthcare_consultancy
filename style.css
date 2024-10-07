@@ -20,6 +20,8 @@
     bottom: 20%; /* Position captions */
 }
 
+
+
 /*______________about */
 .about {
     padding: 50px 0;
@@ -58,73 +60,6 @@
 .shadow {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-/* ____________services  */
-.services{
-    width: 80%;
-    margin: auto;
-    padding: 2% 0;
-}
-.row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.box1{
-    flex-basis: 30%;
-    color: #fff;
-    padding: 2%;
-    margin-bottom: 2%;
-    background-color: #1a92bedb;
-    border-radius: 10px;
-    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
-}
-.heading{
-    padding: 2% 0;
-    color: #2e6476;
-    font-size: 40px;
-}
-.box1 i{
-    padding:  5%;
-    background-color: #f8fdff6b;
-    border-radius: 50%;
-    font-size: 20px;
-}
-.box1 h2{
-    padding: 2% 0;
-    font-size: 28px;
-}
-.about{
-    width: 80%;
-    margin: auto;
-}
-.row1{
-    padding: 2% 0;
-}
-.left{
-    width: 50%;
-}
-.left img{
-    max-width: 100%;
-    height: auto;
-    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
-}
-.right{
-    width: 45%;
-}
-.right h1{
-    font-size: 40px;
-}
-.right p{
-    padding: 3% 0;
-}
-.btn3{
-    font-size: 20px;
-}
-.btn3:hover{
-    cursor: pointer;
-    letter-spacing: 1px;
-    transition: all 0.5s linear;
-}
 
 /* ____________quality  */
 .quality{
@@ -159,24 +94,7 @@ color: blue;
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
     transition: all 0.5s ease-out;
 }
-  /* __________departments 
-.department{
-    width: 80%;
-    margin: auto;
-    padding-bottom: 2%;
-    font-size: 2px;
-}
-.box3{
-    flex-basis:22% ;
-    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
-}
-.box3:hover{
-    transform: scale(1.1);
-    background-color: #e2e9ec;
-    color: #fff;
-    cursor: pointer;
-    transition: all 0.5s linear;
-}*/
+  
 .box3 {
     background-color: #f8f9fa;
     border: 1px solid #dee2e6;
@@ -228,4 +146,45 @@ h1 {
 }
 .navbar{
     background-color: #ffffff;
+}
+/*srevice___*/
+.services {
+    padding: 50px 0;
+    background-color:  #ffffff;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.box1 {
+    background: #05bdf0;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    transition: all 0.3s ease;
+}
+
+.box1:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.box1 i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.box1 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.box1 p {
+    font-size: 1rem;
+    color: #666;
 }
