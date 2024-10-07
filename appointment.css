@@ -1,18 +1,51 @@
-.appointment-form {
-    background-color: #f8f9fa; /* Light background for better visibility */
-    border: 1px solid #ced4da; /* Light border */
-    border-radius: 0.5rem; /* Rounded corners */
-    padding: 1rem; /* Spacing inside the form */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    max-width: 550px; /* Max width for larger screens */
-    margin: auto; /* Centering the form */
-    height: 700px;
-}
-@media (max-width: 576px) {
-    .appointment-form {
-        padding: 3rem; /* Adjust padding for smaller screens */
-    }
-}
-.navbar{
-    background-color:#ffffff;
-}
+body {
+    background-color: #32B7B7;
+  }
+
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-brand img {
+    height: 50px;
+    width: auto;
+  }
+
+  .appointment-form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .appointment-form h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #17a2b8;
+  }
+
+  .form-control {
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  button[type="submit"] {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #138f9a;
+  }
+
+  footer {
+    background-color: #17a2b8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
